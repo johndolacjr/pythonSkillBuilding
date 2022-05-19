@@ -13,3 +13,29 @@ We have to many comments
 Where are the bugs
 Welcome to the world
 """
+
+# Variables
+
+x = 15
+print (x)
+
+x = "Hello"
+print(x)
+
+# no need to specify strings etc. only assign the value to a variable
+
+""""
+x = int(5)
+y = float(7.9)
+z = str("Name")
+
+#Float = decimal number
+# Integer or Int = whole number
+# String/ str = word 
+print(x)
+print(y) 
+print(z)
+"""
+
+x = "Hello"
+print(type(x))
