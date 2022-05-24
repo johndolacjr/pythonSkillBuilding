@@ -82,9 +82,37 @@ print (y)
 print (z)
 
 #Results = Book, Book, Book
-'''
+
 School = ["Pen", "Book", "Bag"]
 x, y, z = School
 print (x)
 print (y)
 print (z)
+'''
+
+#GLOBAL VARIABLES
+'''
+x = "Elike"
+
+#bringing in a function (defining our function)
+def ourfunc():
+    x = "Hello"
+    print(x + " World")
+
+#calling our function to run/print "Hello World"
+ourfunc() 
+
+#The function will run the local variable first and think its done
+# Print this would say Hello World NOT Elike World - deleting the local variable will then cause the function to look outside of itself and then print Elike World. 
+
+x = "Elike"
+
+def ourfunc():
+    y = "Hello"
+    print ("This is a python programming" + " " + y + " " + x)
+
+ourfunc() 
+'''
+
+#GLOBAL KEYWORD
+
