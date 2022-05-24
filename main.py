@@ -18,7 +18,7 @@ Welcome to the world
 """
 
 # Variables
-
+'''
 x = 15
 print (x)
 
@@ -26,6 +26,7 @@ x = "Hello"
 print(x)
 
 # no need to specify strings etc. only assign the value to a variable
+'''
 
 """"
 x = int(5)
@@ -115,4 +116,37 @@ ourfunc()
 '''
 
 #GLOBAL KEYWORD
+'''
+x = "Peter"
+
+def hello():
+    x = "Paul"
+    print (x)
+hello()
+
+# This will print out "Paul" when run 
+'''
+'''
+x = "Peter"
+
+def hello():
+    x = "Paul"
+    print (x)
+hello()
+
+print (x)
+'''
+# will print out Peter as print (x) looks globally first because its not w/in the function like X="Paul"; print(x) when you call the function hello()
+# how do i assign Paul to a global variable? --> Assigning a Global Keyword to X
+
+x = "Peter"
+
+def hello():
+    global x
+    x = "Paul"
+    
+hello()
+
+print (x)
+
 
