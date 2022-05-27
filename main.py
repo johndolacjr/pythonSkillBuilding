@@ -1,4 +1,4 @@
-# Part 1
+#SECTION 1: Getting Started w/ the Fundementals of Python Programming
 # Installed Python, Pycharm, etc.
 
 # Part 2 Basic Syntax
@@ -187,6 +187,7 @@ print(type(e))
 # Essentially you tell the CPU what you want the outputs to be, could be based on how you need your results.
 # cant assign a string to be an int (NOT POSSIBLE); you can assign an int to be a string  
 #EXAMPLES
+'''
 x = int(2.5)
 print(x)           # will print the whole number 2 (not 2.5 b/c it is classified as an int)
 print(type(x))     # will print <class 'int'>
@@ -201,5 +202,25 @@ print(z)           # will print the decimal number 2.5
 print(type(z))     # will print <class 'str'> (because you assigned it as a string)
 
 a = int("hello")
-print(a)           # will print the decimal number 2.5
-print(type(a))     # will print <class 'str'> (because you assigned it as a string)
+print(a)           # will print an error because you cannot sign words to be a numerical value
+print(type(a))    
+'''
+
+#SECTION 2: Strings in Python Programming 
+#Introduction to Strings
+#Strings are surrounded by quotation marks "Hello World"
+#Strings can be assigned to a variable (x) --> print x ---> X = "Hello World"
+#Multiple Strings: print
+
+x = "Hello World"
+y = "multiple lines for longer text use 3 quotation marks"
+
+#example of y = """....Lots of words....""" ---> this would carry on for multiple lines and be able to print successfully all
+
+z = "John walked to the store to the store \
+    to get a piece of candy for his kids \
+    but he ate all of the candy by the time he got home"
+
+print(z)
+
+#backwards slash allows shorter strings to use multiple lines and print out as one string of text
