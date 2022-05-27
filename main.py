@@ -152,29 +152,54 @@ print (x)
 #Paul is printed out because it is now a global variable  --> if we do not call the function then Peter will print out
 
 #DATA TYPES
-
-from re import L
-
-
-a = "Hello World"                      #string (str) - string/ words
+'''
+#STRINGS/ INTEGER/ FLOAT/ COMPLEX
+a = "Hello World"                      #string (str) - words
 b = 2                                  #integer (int) - whole numbers to infinity 
 c = 3.5                                #float (float) - decimal numbers to infinity 
 d = 5j                                 #complex (complex) - 
 
-e = ["Pen", "Paper", "Book"]           #list (list) - sequence type
-f = ("Bag", "Biro", "Pencil")          #tuple (tuple) - sequence type
-g = range(7)                           #range (range) - sequence type
+#SEQUENCE TYPES
+e = ["Pen", "Paper", "Book"]           #list (list) 
+f = ("Bag", "Biro", "Pencil")          #tuple (tuple) 
+g = range(7)                           #range (range) 
 
-i = {"Pen": "Bag", "hello" : 50}       #dictionary (dict) - marking type 
+#MARKING TYPES
+i = {"Pen": "Bag", "hello" : 50}       #dictionary (dict) 
 
-j = {"Pen", "Bag", "Pencil"}           #set (set) - set type
-k = frozenset({"Pen", "Bag", "Book"})  #frozenset (frozenset) - set type
+#SET TYPES:
+j = {"Pen", "Bag", "Pencil"}           #set (set)
+k = frozenset({"Pen", "Bag", "Book"})  #frozenset (frozenset) 
 
-l = False                              #bool (boolean) - True or False
-#binary types consists of 0's and 1's 
+#Booleans: True or False
+l = False                              #bool (boolean)
+                             
+#BINARY TYPES: consists of 0's and 1's 
 m = b"Tree"                            #bytes (bytes)
 n = bytearray(4)                       #bytearray (bytearray) 
 o = memoryview(bytes(5))               #memoryview (memoryview) 
 
 print(type(e))
+'''
 
+#CASTING - 
+# Comes into play when dealing w/ numbers; you tell it to be a float, int, or string type. 
+# Essentially you tell the CPU what you want the outputs to be, could be based on how you need your results.
+# cant assign a string to be an int (NOT POSSIBLE); you can assign an int to be a string  
+#EXAMPLES
+x = int(2.5)
+print(x)           # will print the whole number 2 (not 2.5 b/c it is classified as an int)
+print(type(x))     # will print <class 'int'>
+
+
+y = float(2)
+print(y)           # will print the decimal number 2.0 (not 2 b/c it is classified as a float)
+print(type(y))     # will print <class 'float'>
+
+z = str(2.5)
+print(z)           # will print the decimal number 2.5
+print(type(z))     # will print <class 'str'> (because you assigned it as a string)
+
+a = int("hello")
+print(a)           # will print the decimal number 2.5
+print(type(a))     # will print <class 'str'> (because you assigned it as a string)
