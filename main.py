@@ -138,15 +138,43 @@ print (x)
 '''
 # will print out Peter as print (x) looks globally first because its not w/in the function like X="Paul"; print(x) when you call the function hello()
 # how do i assign Paul to a global variable? --> Assigning a Global Keyword to X
-
+'''
 x = "Peter"
 
 def hello():
     global x
     x = "Paul"
-    
+
 hello()
 
 print (x)
+'''
+#Paul is printed out because it is now a global variable  --> if we do not call the function then Peter will print out
 
+#DATA TYPES
+
+from re import L
+
+
+a = "Hello World"                      #string (str) - string/ words
+b = 2                                  #integer (int) - whole numbers to infinity 
+c = 3.5                                #float (float) - decimal numbers to infinity 
+d = 5j                                 #complex (complex) - 
+
+e = ["Pen", "Paper", "Book"]           #list (list) - sequence type
+f = ("Bag", "Biro", "Pencil")          #tuple (tuple) - sequence type
+g = range(7)                           #range (range) - sequence type
+
+i = {"Pen": "Bag", "hello" : 50}       #dictionary (dict) - marking type 
+
+j = {"Pen", "Bag", "Pencil"}           #set (set) - set type
+k = frozenset({"Pen", "Bag", "Book"})  #frozenset (frozenset) - set type
+
+l = False                              #bool (boolean) - True or False
+#binary types consists of 0's and 1's 
+m = b"Tree"                            #bytes (bytes)
+n = bytearray(4)                       #bytearray (bytearray) 
+o = memoryview(bytes(5))               #memoryview (memoryview) 
+
+print(type(e))
 
