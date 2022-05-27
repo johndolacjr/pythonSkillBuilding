@@ -211,7 +211,7 @@ print(type(a))
 #Strings are surrounded by quotation marks "Hello World"
 #Strings can be assigned to a variable (x) --> print x ---> X = "Hello World"
 #Multiple Strings: print
-
+'''
 x = "Hello World"
 y = "multiple lines for longer text use 3 quotation marks"
 
@@ -224,3 +224,13 @@ z = "John walked to the store to the store \
 print(z)
 
 #backwards slash allows shorter strings to use multiple lines and print out as one string of text
+'''
+
+#String Arrays
+#each letter is a character; lets print h
+x = "Hello, world"
+
+print(x[0])
+
+#this will print the letter "h" when i run the code; the number 4 would run the leter "o"
+#had to stop short...sick kids....left off at 1:41 
