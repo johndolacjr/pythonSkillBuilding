@@ -12,4 +12,4 @@ print(x[6:])
 '''
 
 print(x[-5:-1])
-#this returns characters counting from the left to the right...this example returns "r Pan"
+#this returns characters counting from the left to the right...this example returns "r Pa" because the n = 0 in the array

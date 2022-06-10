@@ -15,6 +15,9 @@ print(len(x))
 #this will print the length of the string (11) since there are 11 characters in the length of the string
 '''
 
+'''
 x = "This is a really long sentence abot python. Wow this is so long"
 if "sentence" in x: 
     print("Yes, sentence exists")
+#this will tell you if a word in your string exists or not while using an if statement.
+'''
