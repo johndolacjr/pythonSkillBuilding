@@ -1,4 +1,4 @@
-x = "Peter Pan"
+# x = "Peter Pan"
 
 '''
 print(x[1:5])
@@ -11,5 +11,5 @@ print(x[6:])
 #prints from the 6th character to the end of the string and
 '''
 
-print(x[-5:-1])
+# print(x[-5:-1])
 #this returns characters counting from the left to the right...this example returns "r Pa" because the n = 0 in the array

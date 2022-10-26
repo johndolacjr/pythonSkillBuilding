@@ -22,9 +22,9 @@
 # will print class type which is a String (STR)
 # 
 
-age = 39
+# age = 39
 
-print(age)
+# print(age)
 
 
 
